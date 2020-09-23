@@ -1,0 +1,12 @@
+html {
+  box-sizing: border-box;
+}
+
+.piskvorky {
+  width: 300px;
+  background-color: #283e50;
+}
+
+.foto {
+  width: 100%;
+}
