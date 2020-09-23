@@ -2,6 +2,10 @@ html {
   box-sizing: border-box;
 }
 
+body {
+  background-image: linear-gradient(to bottom, #615dad, #ffc8da);
+}
+
 .piskvorky {
   width: 350px;
   color: #ffffff;
