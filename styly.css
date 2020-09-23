@@ -3,10 +3,57 @@ html {
 }
 
 .piskvorky {
-  width: 300px;
+  width: 350px;
+  color: #ffffff;
   background-color: #283e50;
+  margin: 100px;
+  margin-left: 300px;
+  text-align: center;
+  font-size: 18px;
+  font-family: sans-serif;
+  font-style: inherit;
 }
 
 .foto {
   width: 100%;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+}
+
+.uvod {
+  padding: 10px;
+}
+
+ul.odkazy {
+  padding: 0;
+}
+
+.odkazy li {
+  list-style-type: none;
+}
+
+.odkazy a {
+  text-decoration: none;
+  display: block;
+  color: #ffffff;
+  padding: 15px;
+  margin: 1px;
+}
+
+.pravidla {
+  background-color: #1fcca4;
+}
+
+a.pravidla:hover {
+  background-color: #1cbb96;
+}
+
+.hra {
+  background-color: #0197f6;
+}
+
+a.hra:hover {
+  background-color: #0090e9;
 }
