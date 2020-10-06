@@ -6,12 +6,16 @@ body {
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
 }
 
+.kontejner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .piskvorky {
   width: 350px;
   color: #ffffff;
   background-color: #283e50;
-  margin: 100px;
-  margin-left: 300px;
   text-align: center;
   font-size: 18px;
   font-family: sans-serif;
@@ -20,6 +24,7 @@ body {
 
 .foto {
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 h1 {
@@ -32,6 +37,7 @@ h1 {
 
 ul.odkazy {
   padding: 0;
+  margin: auto;
 }
 
 .odkazy li {
