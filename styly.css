@@ -88,3 +88,20 @@ a.hra:hover {
   text-align: center;
   margin: 5px 30px 30px 30px;
 }
+
+@media (min-width: 550px) {
+  .pravidla-hlavni {
+    width: 600px;
+  }
+  .pravidla-kontejner {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .obrazek-pravidla {
+    flex-basis: 49%;
+  }
+  .instrukce {
+    max-width: 200px;
+    background-position: center;
+  }
+}
