@@ -79,29 +79,38 @@ a.hra:hover {
   background-color: #0090e9;
 }
 
-.instrukce {
-  width: 300px;
-  margin: 10px 30px;
+.kolecko,
+.krizek {
+  filter: invert(100%);
+  width: 1em;
+  height: 1em;
 }
 
-.text-under {
+.instrukce {
+  width: 100%;
+}
+
+figcaption {
   text-align: center;
   margin: 5px 30px 30px 30px;
+  font-style: italic;
+  font-size: 13px;
 }
 
 @media (min-width: 550px) {
   .pravidla-hlavni {
     width: 600px;
   }
+
   .pravidla-kontejner {
     display: flex;
     flex-wrap: wrap;
   }
+
   .obrazek-pravidla {
     flex-basis: 49%;
   }
-  .instrukce {
-    max-width: 200px;
+  .figcaption {
     background-position: center;
   }
 }
