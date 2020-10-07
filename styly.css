@@ -12,7 +12,8 @@ body {
   align-items: center;
 }
 
-.piskvorky {
+.piskvorky,
+.pravidla-hlavni {
   width: 350px;
   color: #ffffff;
   background-color: #283e50;
@@ -20,6 +21,10 @@ body {
   font-size: 18px;
   font-family: sans-serif;
   font-style: inherit;
+}
+
+.soupis-pravidel .seznam {
+  text-align: left;
 }
 
 .foto {
@@ -31,8 +36,13 @@ h1 {
   font-family: 'Lobster', cursive;
 }
 
-.uvod {
+.uvod,
+.soupis-pravidel {
   padding: 10px;
+}
+
+.seznam li {
+  margin: 10px 0;
 }
 
 ul.odkazy {
@@ -52,7 +62,8 @@ ul.odkazy {
   margin: 1px;
 }
 
-.pravidla {
+.pravidla,
+.uvodni-stranka {
   background-color: #1fcca4;
 }
 
@@ -67,3 +78,4 @@ a.pravidla:hover {
 a.hra:hover {
   background-color: #0090e9;
 }
+
