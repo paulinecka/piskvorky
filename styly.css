@@ -67,7 +67,8 @@ ul.odkazy {
   background-color: #1fcca4;
 }
 
-a.pravidla:hover {
+.odkazy .pravidla:hover,
+.uvodni-stranka:hover {
   background-color: #1cbb96;
 }
 
@@ -75,7 +76,7 @@ a.pravidla:hover {
   background-color: #0197f6;
 }
 
-a.hra:hover {
+.hra:hover {
   background-color: #0090e9;
 }
 
@@ -101,10 +102,14 @@ figcaption {
   .pravidla-hlavni {
     width: 600px;
   }
+  figure {
+    margin: 15px;
+  }
 
   .pravidla-kontejner {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
   }
 
   .obrazek-pravidla {
