@@ -124,7 +124,7 @@ figcaption {
 
 .kontejner-hra {
   max-width: 80vmin;
-  margin: 0px auto 0px;
+  margin: 0px auto 50px;
 }
 
 .uvod-hra {
@@ -145,8 +145,12 @@ figcaption {
 }
 
 .kolecko-hra {
-  filter: invert(100%);
-  width: 1.5em;
+  border-radius: 50%;
+  border: 2px white solid;
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  margin-left: 5px;
 }
 
 .kdo-hraje {
@@ -161,15 +165,19 @@ figcaption {
   flex-wrap: wrap;
   max-width: 80vmin;
   background-image: linear-gradient(to bottom, #615dad, #ffc8da);
-  opacity: 0.5;
 }
 
 .tlacitka button {
   width: 10%;
   height: 8vmin;
   margin: 0;
-  border: 1px rgb(104, 89, 89) solid;
-  flex-basis: ;
+  border: 1px rgb(65, 52, 52) solid;
+  opacity: 0.5;
+}
+
+.tlacitka button:hover,
+.tlacitka button:focus {
+  opacity: 0.7;
 }
 
 .domu,
