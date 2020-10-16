@@ -68,7 +68,8 @@ ul.odkazy {
 }
 
 .odkazy .pravidla:hover,
-.uvodni-stranka:hover {
+.uvodni-stranka:hover,
+.domu:hover {
   background-color: #1cbb96;
 }
 
@@ -76,7 +77,8 @@ ul.odkazy {
   background-color: #0197f6;
 }
 
-.hra:hover {
+.hra:hover,
+.znovu:hover {
   background-color: #0090e9;
 }
 
@@ -118,4 +120,70 @@ figcaption {
   .figcaption {
     background-position: center;
   }
+}
+
+.kontejner-hra {
+  max-width: 80vmin;
+  margin: 0px auto 0px;
+}
+
+.uvod-hra {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigace {
+  display: flex;
+  justify-content: end;
+}
+
+.nazev-hra {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.kolecko-hra {
+  filter: invert(100%);
+  width: 1.5em;
+}
+
+.kdo-hraje {
+  color: #ffffff;
+  font-size: 22px;
+  text-align: left;
+  display: flex;
+}
+
+.tlacitka {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 80vmin;
+  background-image: linear-gradient(to bottom, #615dad, #ffc8da);
+  opacity: 0.5;
+}
+
+.tlacitka button {
+  width: 10%;
+  height: 8vmin;
+  margin: 0;
+  border: 1px rgb(104, 89, 89) solid;
+  flex-basis: ;
+}
+
+.domu,
+.znovu {
+  padding: 10px;
+  border-radius: 15px;
+  margin: 3px;
+  margin-bottom: 40px;
+}
+
+.domu {
+  background-color: #1fcca4;
+}
+
+.znovu {
+  background-color: #0197f6;
 }
