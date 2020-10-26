@@ -196,3 +196,14 @@ figcaption {
 .znovu {
   background-color: #0197f6;
 }
+
+.ted-hraje {
+  width: 2em;
+  filter: invert(100%);
+  transform: translate(-5px, -10px);
+}
+.board__field--circle {
+  background-image: url('circle.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
